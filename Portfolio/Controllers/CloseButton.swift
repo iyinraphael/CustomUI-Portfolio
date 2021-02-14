@@ -30,4 +30,16 @@ import UIKit
 
 class CloseButton: UIButton {
   
+  override func layoutSubviews() {
+    super.layoutSubviews()
+    backgroundColor = .red
+    
+    layer.cornerRadius = frame.width * 0.5
+    layer.shadowOffset = CGSize.zero
+    layer.shadowOpacity = 1
+    layer.borderWidth = 2
+    layer.borderColor = UIColor.white.cgColor
+
+  }
+
 }
