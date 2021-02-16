@@ -57,7 +57,6 @@ class SamplesTableViewController: UITableViewController {
   func formatCloseButton(in controller: UIViewController) {
     let closeButton = CloseButton(type: .custom)
     closeButton.addTarget(self, action: #selector(closeController), for: .touchUpInside)
-    closeButton.setTitle("Close", for: .normal)
     controller.view.addSubview(closeButton)
     closeButton.translatesAutoresizingMaskIntoConstraints = false
     let safeArea = controller.view.safeAreaLayoutGuide

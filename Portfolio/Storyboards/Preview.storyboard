@@ -144,6 +144,11 @@
                                     <constraint firstAttribute="height" constant="184" id="QXT-8A-gwm"/>
                                     <constraint firstAttribute="width" constant="67" id="s4c-7P-dgc"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="level">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="K2Z-RV-bEp"/>
@@ -156,7 +161,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ods-Rh-EGR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2430" y="62"/>
+            <point key="canvasLocation" x="-2430.434782608696" y="61.956521739130437"/>
         </scene>
         <!--Budget-->
         <scene sceneID="ab5-Hf-FJb">
